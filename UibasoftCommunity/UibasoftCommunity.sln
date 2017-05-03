@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.Cross.Io
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.Cross.IoContainer.Test", "Uibasoft.Community.Cross.IoContainer.Test\Uibasoft.Community.Cross.IoContainer.Test.csproj", "{8D5873CB-05D5-463A-9319-676E1417E7F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.Comunes", "Uibasoft.Community.Comunes\Uibasoft.Community.Comunes.csproj", "{6DA43885-80E9-4CF6-BFE7-C5D271EF9226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8D5873CB-05D5-463A-9319-676E1417E7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D5873CB-05D5-463A-9319-676E1417E7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D5873CB-05D5-463A-9319-676E1417E7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA43885-80E9-4CF6-BFE7-C5D271EF9226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA43885-80E9-4CF6-BFE7-C5D271EF9226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA43885-80E9-4CF6-BFE7-C5D271EF9226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA43885-80E9-4CF6-BFE7-C5D271EF9226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{79514065-9488-4FA6-BE39-0AAF9758E59B} = {06071181-1594-4431-BD55-5AD575CAE718}
 		{8D5873CB-05D5-463A-9319-676E1417E7F0} = {06071181-1594-4431-BD55-5AD575CAE718}
+		{6DA43885-80E9-4CF6-BFE7-C5D271EF9226} = {06071181-1594-4431-BD55-5AD575CAE718}
 	EndGlobalSection
 EndGlobal
