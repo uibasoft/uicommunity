@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Extensions\ExpressionBuilder.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
@@ -53,6 +52,7 @@
     <Compile Include="Result\ResultOperation.cs" />
     <Compile Include="Result\ResultPage.cs" />
     <Compile Include="Result\SimpleItemDto.cs" />
+    <Compile Include="UibasoftException.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
