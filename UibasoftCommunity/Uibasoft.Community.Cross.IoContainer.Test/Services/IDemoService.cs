@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Uibasoft.Community.Cross.IoContainer
+namespace Uibasoft.Community.Cross.IoContainer.Test.Services
 {
-    public class Class1
+    public interface IDemoService
     {
+        string GetDateNowUtc();
     }
 }
