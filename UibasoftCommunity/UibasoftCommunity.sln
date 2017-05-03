@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Doc", "00 Doc", "{3DDD2D9E-4755-4882-B5D6-03110028433F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Presentacion", "01 Presentacion", "{DC04261B-7002-4C16-9D07-1F22A04532BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Servicio Integracion", "02 Servicio Integracion", "{05C8F6CC-5CA8-4393-A0D6-40665786A4ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Aplicacion", "03 Aplicacion", "{ECDA1C4A-78F4-4BE2-A664-20196A571AF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Dominio", "04 Dominio", "{98327289-74CD-4719-B2D1-8B14EF5E8FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Infraestructura", "05 Infraestructura", "{06071181-1594-4431-BD55-5AD575CAE718}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.Cross.IoContainer", "Uibasoft.Community.Cross.IoContainer\Uibasoft.Community.Cross.IoContainer.csproj", "{79514065-9488-4FA6-BE39-0AAF9758E59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.Cross.IoContainer.Test", "Uibasoft.Community.Cross.IoContainer.Test\Uibasoft.Community.Cross.IoContainer.Test.csproj", "{8D5873CB-05D5-463A-9319-676E1417E7F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79514065-9488-4FA6-BE39-0AAF9758E59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79514065-9488-4FA6-BE39-0AAF9758E59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79514065-9488-4FA6-BE39-0AAF9758E59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79514065-9488-4FA6-BE39-0AAF9758E59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5873CB-05D5-463A-9319-676E1417E7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5873CB-05D5-463A-9319-676E1417E7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5873CB-05D5-463A-9319-676E1417E7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5873CB-05D5-463A-9319-676E1417E7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79514065-9488-4FA6-BE39-0AAF9758E59B} = {06071181-1594-4431-BD55-5AD575CAE718}
+		{8D5873CB-05D5-463A-9319-676E1417E7F0} = {06071181-1594-4431-BD55-5AD575CAE718}
+	EndGlobalSection
+EndGlobal
