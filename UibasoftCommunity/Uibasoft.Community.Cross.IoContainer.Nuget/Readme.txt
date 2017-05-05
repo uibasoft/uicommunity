@@ -1,6 +1,6 @@
 ﻿
 
-	Uibasoft.Community.Comunes
+	Uibasoft.Community.Cross.IoContainer
 	uibasoft - http://www.uibasoft.com
 
 
@@ -32,14 +32,14 @@
 	desde la interfaz grafica o la consola de administración de 
 	paguetes nuget ingresando:
 
-	Uibasoft.Community.Comunes
+	Uibasoft.Community.Cross.IoContainer
 
   Licencia
   ---------
 
 	MIT License
 
-	Copyright (c) 2017 Uibasoft - Uibasoft.Community.Comunes
+	Copyright (c) 2017 Uibasoft - Uibasoft.Community.Cross.IoContainer
 
 	Se concede permiso por la presente, de forma gratuita, a cualquier persona que obtenga una copia de este 
 	software y de los archivos de documentación asociados (al "Software"), para utilizar el Software sin restricción, 
@@ -64,7 +64,7 @@
 
      o Si va informarnos de nuevas versiones de codigo
 	   errores, errores de seguridad y/o cualquier otra información
-	   sobre Uibasoft.Community.Comunes, puedes registrar tu comentario en:
+	   sobre Uibasoft.Community.Cross.IoContainer, puedes registrar tu comentario en:
 
        https://github.com/uibasoft/uicommunity/issues
 

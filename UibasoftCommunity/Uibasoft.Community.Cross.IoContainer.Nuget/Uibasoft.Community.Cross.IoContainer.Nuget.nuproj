@@ -22,21 +22,20 @@
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
-    <Id>Uibasoft.Community.Cross.IoContainer.Nuget</Id>
-    <Version>1.0.0</Version>
-    <Title>Uibasoft.Community.Cross.IoContainer.Nuget</Title>
-    <Authors>LBAIGORRIA</Authors>
-    <Owners>LBAIGORRIA</Owners>
-    <Summary>Uibasoft.Community.Cross.IoContainer.Nuget</Summary>
-    <Description>Uibasoft.Community.Cross.IoContainer.Nuget</Description>
-    <ReleaseNotes>
-    </ReleaseNotes>
-    <ProjectUrl>
-    </ProjectUrl>
-    <LicenseUrl>
-    </LicenseUrl>
-    <Copyright>Copyright © LBAIGORRIA</Copyright>
-    <Tags>Uibasoft.Community.Cross.IoContainer.Nuget</Tags>
+    <Id>Uibasoft.Community.Cross.IoContainer</Id>
+    <Version>1.0.0-alpha1</Version>
+    <Title>Uibasoft Community Cross IoContainer</Title>
+    <Authors>Luis Alberto Baigorria Rodas</Authors>
+    <Owners>uialberto,  Luis Alberto Baigorria Rodas</Owners>
+    <Summary>Componente y contenedor de inyección de dependencia con unity. </Summary>
+    <Description>Componente que ofrece clases de resultado de comunicacion entre métodos, extensiones, clases utilitarios, cifrador de password, etc. Este componente puede ser usado en cualquiera de las capas bajo una arquitectura domain driven design.</Description>
+    <ReleaseNotes>Definición base. . IoC, IoContainer, Unity,  UnityIoC, etc.</ReleaseNotes>
+    <ProjectUrl>https://github.com/uibasoft/uicommunity</ProjectUrl>
+    <LicenseUrl>https://github.com/uibasoft/uicommunity/blob/master/LICENSE</LicenseUrl>
+    <Copyright>Copyright © Uibasoft 2017</Copyright>
+    <Tags> uibasoft, community, framework, uialberto, ioc, container, unityioc, unitycontainer, lbaigorria</Tags>
+    <IconUrl>http://uibasoft.com/img/emp/uicom.ico</IconUrl>
+    <GenerateSymbolPackage>false</GenerateSymbolPackage>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
