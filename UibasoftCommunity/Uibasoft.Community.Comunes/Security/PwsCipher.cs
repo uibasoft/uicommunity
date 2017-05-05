@@ -16,7 +16,7 @@ namespace Uibasoft.Community.Comunes.Security
         private const int SaltIndex = 0;
         private const int Pbkdf2Index = 1;
         private const int IterationIndex = 2;
-        private readonly string _seperator = "#&b4ngu1&#";
+        private readonly string _seperator = "#b4ngu1#";
         public PwsCipher()
         {
 
