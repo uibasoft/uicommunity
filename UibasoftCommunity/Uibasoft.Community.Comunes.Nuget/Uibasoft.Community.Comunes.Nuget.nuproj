@@ -27,17 +27,16 @@
     <Title>Uibasoft Community Comunes</Title>
     <Authors>Luis Alberto Baigorria Rodas</Authors>
     <Owners>uialberto, Luis Alberto Baigorria Rodas</Owners>
-    <Summary>Uibasoft.Community.Comunes.Nuget</Summary>
+    <Summary>Componente que ofrece clases de resultado de comunicacion entre métodos, extensiones, clases utilitarios, cifrador de password, etc. Este componente puede ser usado en cualquiera de las capas bajo una arquitectura domain driven design.</Summary>
     <Description>Componente que ofrece clases de resultado de comunicacion entre métodos, extensiones, clases utilitarios, cifrador de password, etc. Este componente puede ser usado en cualquiera de las capas bajo una arquitectura domain driven design.</Description>
     <ReleaseNotes>Definición base. ResultElement, ResultList, ResultOperations, ResultPage, SimpleItemDto, PwsCipher, Extensions, TypeRangeParameter</ReleaseNotes>
-    <ProjectUrl>
-    </ProjectUrl>
-    <LicenseUrl>
-    </LicenseUrl>
+    <ProjectUrl>https://github.com/uibasoft/uicommunity</ProjectUrl>
+    <LicenseUrl>https://github.com/uibasoft/uicommunity/blob/master/LICENSE</LicenseUrl>
     <Copyright>Copyright © Uibasoft 2017</Copyright>
     <Tags>uibasoft, community, framework, uialberto, extensions, result, resultoperations, password, cipher, lbaigorria</Tags>
     <IconUrl>http://uibasoft.com/img/emp/uicom.ico</IconUrl>
     <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <GenerateSymbolPackage>false</GenerateSymbolPackage>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
