@@ -5,6 +5,10 @@
       <Configuration>Debug</Configuration>
       <Platform>AnyCPU</Platform>
     </ProjectConfiguration>
+    <ProjectConfiguration Include="pre|AnyCPU">
+      <Configuration>pre</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
     <ProjectConfiguration Include="Release|AnyCPU">
       <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
@@ -18,21 +22,22 @@
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
-    <Id>Uibasoft.Community.Comunes.Nuget</Id>
-    <Version>1.0.0</Version>
-    <Title>Uibasoft.Community.Comunes.Nuget</Title>
-    <Authors>LBAIGORRIA</Authors>
-    <Owners>LBAIGORRIA</Owners>
+    <Id>Uibasoft.Community.Comunes</Id>
+    <Version>1.0.0-alpha1</Version>
+    <Title>Uibasoft Community Comunes</Title>
+    <Authors>Luis Alberto Baigorria Rodas</Authors>
+    <Owners>uialberto, Luis Alberto Baigorria Rodas</Owners>
     <Summary>Uibasoft.Community.Comunes.Nuget</Summary>
-    <Description>Uibasoft.Community.Comunes.Nuget</Description>
-    <ReleaseNotes>
-    </ReleaseNotes>
+    <Description>Componente que ofrece clases de resultado de comunicacion entre métodos, extensiones, clases utilitarios, cifrador de password, etc. Este componente puede ser usado en cualquiera de las capas bajo una arquitectura domain driven design.</Description>
+    <ReleaseNotes>Definición base. ResultElement, ResultList, ResultOperations, ResultPage, SimpleItemDto, PwsCipher, Extensions, TypeRangeParameter</ReleaseNotes>
     <ProjectUrl>
     </ProjectUrl>
     <LicenseUrl>
     </LicenseUrl>
-    <Copyright>Copyright © LBAIGORRIA</Copyright>
-    <Tags>Uibasoft.Community.Comunes.Nuget</Tags>
+    <Copyright>Copyright © Uibasoft 2017</Copyright>
+    <Tags>uibasoft, community, framework, uialberto, extensions, result, resultoperations, password, cipher, lbaigorria</Tags>
+    <IconUrl>http://uibasoft.com/img/emp/uicom.ico</IconUrl>
+    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />

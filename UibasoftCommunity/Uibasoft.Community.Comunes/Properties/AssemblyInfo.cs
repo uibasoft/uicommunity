@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Uibasoft.Community.Comunes")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Uibasoft Community Comunes")]
+[assembly: AssemblyDescription("Componente que ofrece clases de resultado de comunicacion entre métodos, extensiones, clases utilitarios, cifrador de password, etc. Este componente puede ser usado en cualquiera de las capas bajo una arquitectura domain driven design.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Uibasoft, Luis Alberto Baigorria Rodas")]
 [assembly: AssemblyProduct("Uibasoft.Community.Comunes")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Uibasoft")]
+[assembly: AssemblyTrademark("Uibasoft Community Framework")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 

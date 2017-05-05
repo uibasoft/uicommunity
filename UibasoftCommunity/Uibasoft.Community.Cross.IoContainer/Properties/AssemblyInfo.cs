@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Uibasoft.Community.Cross.IoContainer")]
+[assembly: AssemblyTitle("Uibasoft Community Cross IoContainer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Uibasoft, Luis Alberto Baigorria Rodas")]
 [assembly: AssemblyProduct("Uibasoft.Community.Cross.IoContainer")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright © Uibasoft")]
+[assembly: AssemblyTrademark("Uibasoft Community Framework")]
 [assembly: AssemblyCulture("")]
 
 // Si establece ComVisible en false, los tipos de este ensamblado no estarán visibles 
