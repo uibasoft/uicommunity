@@ -27,8 +27,8 @@
     <Title>Uibasoft Community Cross IoContainer</Title>
     <Authors>Luis Alberto Baigorria Rodas</Authors>
     <Owners>uialberto,  Luis Alberto Baigorria Rodas</Owners>
-    <Summary>Componente y contenedor de inyección de dependencia con unity. </Summary>
-    <Description>Componente que ofrece clases de resultado de comunicacion entre métodos, extensiones, clases utilitarios, cifrador de password, etc. Este componente puede ser usado en cualquiera de las capas bajo una arquitectura domain driven design.</Description>
+    <Summary>Componente y contenedor de inyección de dependencia con unity.  Este componente puede ser usado en cualquier capa con el proposito de configurar un contenedor de inyeccion de dependencia con Unity.</Summary>
+    <Description>Componente y contenedor de inyección de dependencia con unity.  Este componente puede ser usado en cualquier capa con el proposito de configurar un contenedor de inyeccion de dependencia con Unity.</Description>
     <ReleaseNotes>Definición base. . IoC, IoContainer, Unity,  UnityIoC, etc.</ReleaseNotes>
     <ProjectUrl>https://github.com/uibasoft/uicommunity</ProjectUrl>
     <LicenseUrl>https://github.com/uibasoft/uicommunity/blob/master/LICENSE</LicenseUrl>
