@@ -11,12 +11,12 @@ namespace Uibasoft.Community.Comunes.Result
         #region Constructor
         public ResultOperation()
         {
-            Errors = new List<string>();
+            Errors = new List<ErrorCode>();
             Messages = new List<string>();
         }
-        public ResultOperation(List<string> errors, List<string> messages)
+        public ResultOperation(List<ErrorCode> errors, List<string> messages)
         {
-            Errors = errors ?? new List<string>();
+            Errors = errors ?? new List<ErrorCode>();
             Messages = messages ?? new List<string>();
         }
 
@@ -24,7 +24,7 @@ namespace Uibasoft.Community.Comunes.Result
 
         #region Propiedades
 
-        public List<string> Errors { get; set; }
+        public List<ErrorCode> Errors { get; set; }
         public List<string> Messages { get; set; }
 
         public bool HasErrors => Errors.Any();

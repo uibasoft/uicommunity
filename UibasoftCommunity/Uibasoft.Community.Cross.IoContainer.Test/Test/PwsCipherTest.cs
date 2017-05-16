@@ -28,7 +28,8 @@ namespace Uibasoft.Community.Cross.IoContainer.Test.Test
 
             #region Act
 
-            var cipherPws = cipher.Encrypt(pws);            
+            var cipherPws = cipher.Encrypt(pws);
+            var date = new DateTime(2017,12,31).AddDays(90);            
 
             #endregion
 
