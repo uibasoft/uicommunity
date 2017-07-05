@@ -25,6 +25,8 @@ Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Uibasoft.Community.Comunes.
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Uibasoft.Community.Cross.IoContainer.Nuget", "Uibasoft.Community.Cross.IoContainer.Nuget\Uibasoft.Community.Cross.IoContainer.Nuget.nuproj", "{ECA5B89C-40D9-4BE2-B7BA-934F194F2F89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.Dominio", "Uibasoft.Community.Dominio\Uibasoft.Community.Dominio.csproj", "{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,12 @@ Global
 		{ECA5B89C-40D9-4BE2-B7BA-934F194F2F89}.pre|Any CPU.Build.0 = pre|Any CPU
 		{ECA5B89C-40D9-4BE2-B7BA-934F194F2F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA5B89C-40D9-4BE2-B7BA-934F194F2F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016}.pre|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016}.pre|Any CPU.Build.0 = Release|Any CPU
+		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +80,6 @@ Global
 		{6DA43885-80E9-4CF6-BFE7-C5D271EF9226} = {06071181-1594-4431-BD55-5AD575CAE718}
 		{E7F2A5DE-3621-47BB-ACD4-9FBAE66A230B} = {06071181-1594-4431-BD55-5AD575CAE718}
 		{ECA5B89C-40D9-4BE2-B7BA-934F194F2F89} = {06071181-1594-4431-BD55-5AD575CAE718}
+		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016} = {98327289-74CD-4719-B2D1-8B14EF5E8FEA}
 	EndGlobalSection
 EndGlobal
