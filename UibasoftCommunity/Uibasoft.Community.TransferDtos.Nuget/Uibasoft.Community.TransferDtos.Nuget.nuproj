@@ -18,21 +18,20 @@
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
-    <Id>Uibasoft.Community.TransferDtos.Nuget</Id>
-    <Version>1.0.0</Version>
-    <Title>Uibasoft.Community.TransferDtos.Nuget</Title>
-    <Authors>LBAIGORRIA</Authors>
-    <Owners>LBAIGORRIA</Owners>
-    <Summary>Uibasoft.Community.TransferDtos.Nuget</Summary>
-    <Description>Uibasoft.Community.TransferDtos.Nuget</Description>
-    <ReleaseNotes>
-    </ReleaseNotes>
-    <ProjectUrl>
-    </ProjectUrl>
-    <LicenseUrl>
-    </LicenseUrl>
-    <Copyright>Copyright © LBAIGORRIA</Copyright>
-    <Tags>Uibasoft.Community.TransferDtos.Nuget</Tags>
+    <Id>Uibasoft.Community.TransferDtos</Id>
+    <Version>1.0.0-alpha1</Version>
+    <Title>Uibasoft Community TransferDtos</Title>
+    <Authors>Luis Alberto Baigorria Rodas</Authors>
+    <Owners>uialberto,   Luis Alberto Baigorria Rodas</Owners>
+    <Summary>Componente que contiene clases que definen el patron de Transferencia de Datos (DTO). Clases bases que pueden ser usados entre comunicación de servicios.</Summary>
+    <Description>Componente que contiene clases que definen el patron de Transferencia de Datos (DTO). Clases bases que pueden ser usados entre comunicación de servicios.</Description>
+    <ReleaseNotes>EntityDto, ResultFileDto, etc</ReleaseNotes>
+    <ProjectUrl>https://github.com/uibasoft/uicommunity</ProjectUrl>
+    <LicenseUrl>https://github.com/uibasoft/uicommunity/blob/master/LICENSE</LicenseUrl>
+    <Copyright>Copyright © Uibasoft 2017</Copyright>
+    <Tags>EntityDto, ResultFileDto, etc</Tags>
+    <IconUrl>http://uibasoft.com/img/emp/uicom.ico</IconUrl>
+    <GenerateSymbolPackage>false</GenerateSymbolPackage>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
