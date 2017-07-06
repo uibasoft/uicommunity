@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.Dominio"
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Uibasoft.Community.Dominio.Nuget", "Uibasoft.Community.Dominio.Nuget\Uibasoft.Community.Dominio.Nuget.nuproj", "{EDC700F0-070B-4084-9371-87C0F754491D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uibasoft.Community.TransferDtos", "Uibasoft.Community.TransferDtos\Uibasoft.Community.TransferDtos.csproj", "{2979C210-7859-491E-BF2B-4372ACDFD7C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,6 +80,12 @@ Global
 		{EDC700F0-070B-4084-9371-87C0F754491D}.pre|Any CPU.Build.0 = Debug|Any CPU
 		{EDC700F0-070B-4084-9371-87C0F754491D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC700F0-070B-4084-9371-87C0F754491D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2979C210-7859-491E-BF2B-4372ACDFD7C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2979C210-7859-491E-BF2B-4372ACDFD7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2979C210-7859-491E-BF2B-4372ACDFD7C4}.pre|Any CPU.ActiveCfg = Release|Any CPU
+		{2979C210-7859-491E-BF2B-4372ACDFD7C4}.pre|Any CPU.Build.0 = Release|Any CPU
+		{2979C210-7859-491E-BF2B-4372ACDFD7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2979C210-7859-491E-BF2B-4372ACDFD7C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,5 +98,6 @@ Global
 		{ECA5B89C-40D9-4BE2-B7BA-934F194F2F89} = {06071181-1594-4431-BD55-5AD575CAE718}
 		{D5EFBA6E-DF71-4C45-86F6-34D5F82E9016} = {98327289-74CD-4719-B2D1-8B14EF5E8FEA}
 		{EDC700F0-070B-4084-9371-87C0F754491D} = {98327289-74CD-4719-B2D1-8B14EF5E8FEA}
+		{2979C210-7859-491E-BF2B-4372ACDFD7C4} = {ECDA1C4A-78F4-4BE2-A664-20196A571AF8}
 	EndGlobalSection
 EndGlobal
