@@ -10,6 +10,14 @@ namespace Uibasoft.Community.Comunes.Result
     {
         public const string ErrorUnknown = "ERRORUNKNOWN";
         public const string ErrorRequeridParameter = "REQUIREDPARAMETER";
+        public const string ErrorServiceSecureHttps = "REQUIRE_HTTPS";
+        public const string ErrorAuthentication = "AUTHENTICATION_ERROR";
+        public const string ErrorBusinessException = "BUSINESS_EXCEPTION";
+        public const string ErrorDataAcessException = "DATAACESS_EXCEPTION";
+        public const string ErrorFrameworkException = "FRAMEWORK_EXCEPTION";
+        public const string ErrorBusinessValidation = "BUSINESS_VALIDATION";
+        public const string ErrorBusinessExternalExcep = "BUSINESS_EXTERNAL_EXCEPTION";
+
 
         public ErrorCode(string code, string message)
         {
