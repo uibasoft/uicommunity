@@ -23,7 +23,7 @@
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
     <Id>Uibasoft.Community.Cross.IoContainer</Id>
-    <Version>1.0.0-alpha1</Version>
+    <Version>1.0.0</Version>
     <Title>Uibasoft Community Cross IoContainer</Title>
     <Authors>Luis Alberto Baigorria Rodas</Authors>
     <Owners>uialberto,  Luis Alberto Baigorria Rodas</Owners>
