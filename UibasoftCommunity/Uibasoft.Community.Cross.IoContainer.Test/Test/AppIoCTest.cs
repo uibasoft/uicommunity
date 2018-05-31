@@ -8,9 +8,6 @@ using Uibasoft.Community.Cross.IoContainer.Test.Services;
 
 namespace Uibasoft.Community.Cross.IoContainer.Test.Test
 {
-    /// <summary>
-    /// Descripción resumida de AppIoCTest
-    /// </summary>
     [TestClass]
     public class AppIoCTest
     {
