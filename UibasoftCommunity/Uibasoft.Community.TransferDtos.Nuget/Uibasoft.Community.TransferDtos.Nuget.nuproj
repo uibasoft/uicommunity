@@ -34,7 +34,7 @@
     <LicenseUrl>https://github.com/uibasoft/uicommunity/blob/master/LICENSE</LicenseUrl>
     <Copyright>Copyright © Uibasoft 2017</Copyright>
     <Tags>EntityDto, ResultFileDto, etc</Tags>
-    <IconUrl>http://uibasoft.com/img/emp/uicom.ico</IconUrl>
+    <IconUrl>http://uibasoft.com/img/emp/uicomi.ico</IconUrl>
     <GenerateSymbolPackage>false</GenerateSymbolPackage>
   </PropertyGroup>
   <ItemGroup>

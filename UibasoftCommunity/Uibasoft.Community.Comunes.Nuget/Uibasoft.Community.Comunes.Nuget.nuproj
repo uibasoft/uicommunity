@@ -34,7 +34,7 @@
     <LicenseUrl>https://github.com/uibasoft/uicommunity/blob/master/LICENSE</LicenseUrl>
     <Copyright>Copyright © Uibasoft 2017</Copyright>
     <Tags>uibasoft, community, framework, uialberto, extensions, result, resultoperations, password, cipher, lbaigorria</Tags>
-    <IconUrl>http://uibasoft.com/img/emp/uicom.ico</IconUrl>
+    <IconUrl>http://uibasoft.com/img/emp/uicomi.ico</IconUrl>
     <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
     <GenerateSymbolPackage>false</GenerateSymbolPackage>
   </PropertyGroup>
