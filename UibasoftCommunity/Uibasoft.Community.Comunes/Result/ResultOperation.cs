@@ -28,6 +28,7 @@ namespace Uibasoft.Community.Comunes.Result
         #region Propiedades
 
         public List<ErrorCode> Errors { get; set; }
+
         public List<string> Messages { get; set; }
 
         public void AddErrorRequeridParameter(string error)
