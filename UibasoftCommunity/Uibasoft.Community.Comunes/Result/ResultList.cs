@@ -13,6 +13,7 @@ namespace Uibasoft.Community.Comunes.Result
             Elements = new List<TElement>();
         }
         public List<TElement> Elements { get; set; }
+
         public int TotalElements { get; set; }
         public int TotalPage { get; set; }
     }
