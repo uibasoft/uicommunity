@@ -30,7 +30,6 @@ namespace Uibasoft.Community.Cross.IoContainer.Unity
             IUnityContainer rootUibasoftContainer = new UnityContainer();
             _containersDictionary.Add(RootContext, rootUibasoftContainer);
 
-            //Create container for real context, child of root container
             var realAppContainer = rootUibasoftContainer.CreateChildContainer();
             _containersDictionary.Add(RealAppContext, realAppContainer);
 
