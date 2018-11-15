@@ -46,6 +46,10 @@ namespace Uibasoft.Community.Comunes.Result
         {
             Errors.Add(new ErrorCode(ErrorCode.ErrorFrameworkException, error));
         }
+        public void AddErrorBusinessExternalExcep(string error)
+        {
+            Errors.Add(new ErrorCode(ErrorCode.ErrorBusinessExternalExcep, error));
+        }
         public void AddError(string code, string message)
         {
             Errors.Add(new ErrorCode(code, message));
