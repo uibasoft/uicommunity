@@ -14,6 +14,7 @@ namespace Uibasoft.Community.TransferDtos.Entities
 
         }
         public byte[] Content { get; set; }
+
         public string Name { get; set; }
         public List<string> TypesMime { get; set; }
 
