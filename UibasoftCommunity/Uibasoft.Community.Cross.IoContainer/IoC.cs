@@ -9,6 +9,7 @@ namespace Uibasoft.Community.Cross.IoContainer
     public static class IoC
     {
         private static readonly object lockObj = new object();
+
         private static IContainer _container;
         public static IContainer Container
         {

@@ -22,7 +22,7 @@ namespace Uibasoft.Community.Comunes.Security
 
         }
         /// <summary>
-        /// Crea un hash PBKDF2 de la contraseña.
+        /// Crea un hash con PBKDF2 de la contraseña.
         /// </summary>
         /// <param name="password">Contraseña para aplicar el cifrado.</param>
         /// <returns>Contraseña cifrada.</returns>

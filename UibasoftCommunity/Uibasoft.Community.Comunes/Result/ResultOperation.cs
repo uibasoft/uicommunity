@@ -28,6 +28,7 @@ namespace Uibasoft.Community.Comunes.Result
         #region Propiedades
 
         public List<ErrorCode> Errors { get; set; }
+
         public List<string> Messages { get; set; }
 
         public void AddErrorRequeridParameter(string error)
@@ -41,6 +42,14 @@ namespace Uibasoft.Community.Comunes.Result
         public void AddErrorDataAcessException(string error)
         {
             Errors.Add(new ErrorCode(ErrorCode.ErrorDataAcessException, error));
+        }
+        public void AddErrorFrameworkException(string error)
+        {
+            Errors.Add(new ErrorCode(ErrorCode.ErrorFrameworkException, error));
+        }
+        public void AddErrorBusinessExternalExcep(string error)
+        {
+            Errors.Add(new ErrorCode(ErrorCode.ErrorBusinessExternalExcep, error));
         }
         public void AddError(string code, string message)
         {
