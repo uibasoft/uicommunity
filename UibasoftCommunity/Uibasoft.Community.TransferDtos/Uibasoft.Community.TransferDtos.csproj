@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\EntityDto.cs" />
-    <Compile Include="Entities\EntityDto.TKey.cs" />
+    <Compile Include="Entities\EntityDto.TKey.cs">
+      <DependentUpon>EntityDto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\ResultFileDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

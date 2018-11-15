@@ -34,6 +34,10 @@ namespace Uibasoft.Community.Comunes.Result
         {
             Errors.Add(new ErrorCode(ErrorCode.ErrorRequeridParameter, error));           
         }
+        public void AddErrorBusinessException(string error)
+        {
+            Errors.Add(new ErrorCode(ErrorCode.ErrorBusinessException, error));
+        }
         public void AddError(string code, string message)
         {
             Errors.Add(new ErrorCode(code, message));
