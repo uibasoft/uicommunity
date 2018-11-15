@@ -38,6 +38,10 @@ namespace Uibasoft.Community.Comunes.Result
         {
             Errors.Add(new ErrorCode(ErrorCode.ErrorBusinessException, error));
         }
+        public void AddErrorDataAcessException(string error)
+        {
+            Errors.Add(new ErrorCode(ErrorCode.ErrorDataAcessException, error));
+        }
         public void AddError(string code, string message)
         {
             Errors.Add(new ErrorCode(code, message));
