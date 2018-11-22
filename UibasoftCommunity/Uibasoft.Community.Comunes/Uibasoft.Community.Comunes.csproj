@@ -65,6 +65,7 @@
     <Compile Include="Result\ResultPage.cs" />
     <Compile Include="Result\SimpleItemDto.cs" />
     <Compile Include="Security\IPasswordCipher.cs" />
+    <Compile Include="Security\MD5Cipher.cs" />
     <Compile Include="Security\PwsCipher.cs" />
     <Compile Include="UibasoftException.cs" />
   </ItemGroup>
