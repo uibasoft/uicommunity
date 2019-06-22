@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Practices.Unity;
+using Unity;
+using Unity.Injection;
+using Unity.Lifetime;
+using Unity.RegistrationByConvention;
 using LocalizedText = Uibasoft.Community.Cross.IoContainer.Unity.Localization.UnityIoC;
 
 namespace Uibasoft.Community.Cross.IoContainer.Unity
@@ -30,7 +33,6 @@ namespace Uibasoft.Community.Cross.IoContainer.Unity
             IUnityContainer rootUibasoftContainer = new UnityContainer();
             _containersDictionary.Add(RootContext, rootUibasoftContainer);
 
-            //Create container for real context, child of root container
             var realAppContainer = rootUibasoftContainer.CreateChildContainer();
             _containersDictionary.Add(RealAppContext, realAppContainer);
 
@@ -107,10 +109,10 @@ namespace Uibasoft.Community.Cross.IoContainer.Unity
                 WithLifetime.ContainerControlled);
 
         }
-        public virtual void RegisterType(Type from, Type to, LifetimeManager lifetimeManager)
+        public virtual void RegisterType(Type from, Type to, ITypeLifetimeManager lifetimeManager)
         {
-            var container = _containersDictionary[RootContext];
-            container?.RegisterType(@from, to, lifetimeManager);
+            var container = _containersDictionary[RootContext];            
+            container?.RegisterType(@from, to,lifetimeManager);
 
         }
         public virtual void PerformInjection(Type type, object existing)

@@ -8,5 +8,9 @@ namespace Uibasoft.Community.Dominio.Uow
 {
     public interface IUnitOfWork : IDisposable
     {
+        Guid InstanceId { get; }
+        int Complete();
+        Task<int> CompleteAsync();
+        void RollbackChanges();
     }
 }
