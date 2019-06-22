@@ -50,7 +50,7 @@ namespace Uibasoft.Community.Comunes.Security
             byte[] bytes = md5provider.ComputeHash(new UTF8Encoding().GetBytes(input));
             for (int i = 0; i < bytes.Length; i++)
             {
-                hash.Append(bytes[i].ToString("x2"));
+                hash.Append(bytes[i].ToString("X2"));
             }
             return hash.ToString();
         }
