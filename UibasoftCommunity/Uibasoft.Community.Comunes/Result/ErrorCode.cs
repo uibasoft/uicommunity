@@ -8,9 +8,10 @@ namespace Uibasoft.Community.Comunes.Result
 {
     public class ErrorCode
     {
+        public const string ErrorServiceSecureHttps = "REQUIRE_HTTPS";
         public const string ErrorUnknown = "ERRORUNKNOWN";
         public const string ErrorRequeridParameter = "REQUIREDPARAMETER";
-        public const string ErrorServiceSecureHttps = "REQUIRE_HTTPS";
+        public const string ErrorAuthorization = "AUTHORIZATION_ERROR";
         public const string ErrorAuthentication = "AUTHENTICATION_ERROR";
         public const string ErrorBusinessException = "BUSINESS_EXCEPTION";
         public const string ErrorDataAcessException = "DATAACESS_EXCEPTION";
